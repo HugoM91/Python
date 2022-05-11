@@ -10,7 +10,7 @@ import discord
 from binance.client import Client
             
 
-client = Client('s5jgqnUryEPYD7oCz5uCdAQimuCIHag5OzmSmVkvyRc2pIVPWPZd8mNx3jyDCdbj', '9QWGd9JTXt76ufl9PE3ocW5D1suikdGgylyKPgzecpDYmhXmBCRmX9DgNQ74pxZU')
+client = Client('', '')
 
 bot = discord.Client()
 
@@ -98,5 +98,5 @@ async def on_message(message):
     
     
     
-bot.run('NzExNTc1Mjc3NDkwNDA1Mzk2.XsJpQg.1A0sZTAe30b-ZoNVxUnO6fD6gAo')
+bot.run('')
 """
