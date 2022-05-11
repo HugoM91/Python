@@ -7,7 +7,7 @@ from discord_webhook import DiscordWebhook
 from indicadores import indicadores
 import numpy as np
 
-client = Client('s5jgqnUryEPYD7oCz5uCdAQimuCIHag5OzmSmVkvyRc2pIVPWPZd8mNx3jyDCdbj', '9QWGd9JTXt76ufl9PE3ocW5D1suikdGgylyKPgzecpDYmhXmBCRmX9DgNQ74pxZU')
+client = Client('', '')
 h = []
 trade_id=[]
 url_qnt = 'https://discordapp.com/api/webhooks/713723604994490368/cKOQON2_l5kJa0_Lpb2bpADPRSbe2g8lBh5AiUFWle006Fl-iBAEChf0SnL3wIKi-XIS'
