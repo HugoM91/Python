@@ -12,11 +12,11 @@ def stream():
     from binance_f.base.printobject import *
     from discord_webhook import DiscordWebhook
     
-    url_pos = 'https://discordapp.com/api/webhooks/716716241275977910/GbK-3BZZHr5bYNd-W1_PEEqkPVa67CsKJyhkopNBpdskfW88GGCGNV8Xyl0GAgi1uswB'
-    request_client = RequestClient(api_key='qZjzNUgXyuQazOmkvuU1GMAkIjoxDRkvjeHeCLRFwcvCO0fx1kZeU2IdZLvIrzgx', secret_key='uad9STV3faJFfMWDAVvPvdd5e8pVY51ciAgR5Hmiw6gla0vMw3oL2HVEltabvrLB')
+    url_pos = ''
+    request_client = RequestClient(api_key='', secret_key='')
     listen_key = request_client.start_user_data_stream()
     result = request_client.keep_user_data_stream()
-    sub_client = SubscriptionClient(api_key='qZjzNUgXyuQazOmkvuU1GMAkIjoxDRkvjeHeCLRFwcvCO0fx1kZeU2IdZLvIrzgx', secret_key='uad9STV3faJFfMWDAVvPvdd5e8pVY51ciAgR5Hmiw6gla0vMw3oL2HVEltabvrLB')
+    sub_client = SubscriptionClient(api_key='', secret_key='')
     
     
     def callback(data_type: 'SubscribeMessageType', event: 'any'):
