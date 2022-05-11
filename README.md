@@ -14,4 +14,6 @@ A bot that can be used in a restaurant at the end of the day that analyses the d
 Day trading crypto bot that receives data from binace, stores that data, uses the data in a machine learning library and sends a Buy or Sell signal after.
 This was my first bot, it was very challenging and a good ride. 
 
-	
+
+
+They all work, if you have any questions feel free to contact me. 
