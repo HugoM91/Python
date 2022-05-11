@@ -9,7 +9,7 @@ Discord Notifications bot that scans binance live data and sends a message to di
 
 Another notifications bot but for telegram (and a little bit more organized).
 
-A bot that can be used in a restaurant at the end of the day that analyses the days "numbers", stores it and sends the day's end report.
+A bot that can be used in a restaurant at the end of the day that analyses the days "numbers", stores the data, formats it and sends the day's end report.
 
 Day trading crypto bot that receives data from binace, stores that data, uses the data in a machine learning library and sends a Buy or Sell signal after.
 This was my first bot, it was very challenging and a good ride. 
