@@ -7,14 +7,14 @@ from discord_webhook import DiscordWebhook
 from indicadores import indicadores
 import numpy as np
 
-client = Client('s5jgqnUryEPYD7oCz5uCdAQimuCIHag5OzmSmVkvyRc2pIVPWPZd8mNx3jyDCdbj', '9QWGd9JTXt76ufl9PE3ocW5D1suikdGgylyKPgzecpDYmhXmBCRmX9DgNQ74pxZU')
+client = Client('', '')
 h = []
 trade_id=[]
-url_qnt = 'https://discordapp.com/api/webhooks/713723604994490368/cKOQON2_l5kJa0_Lpb2bpADPRSbe2g8lBh5AiUFWle006Fl-iBAEChf0SnL3wIKi-XIS'
-url_qnt1 = 'https://discordapp.com/api/webhooks/713899580982427660/u110pz8fa7H_TSO130FbLM4YUGKfICdzrW82WC6Snk5rbT1eeXizZQvmQ8tsax_qMbhC' 
-url_var = 'https://discordapp.com/api/webhooks/713841134471872539/a4jZBrxNdBbUEFjj4d0eIqkcbt8_Izme0ZjwAg2c-jKRILwKoByd2y6goJkFcn8zSDya'
-url_var24 = 'https://discordapp.com/api/webhooks/715236738125135962/L9tY-mhHUpmxcWkcPGtiqooqI-YlvXbo4SWdNJCXQBMenWMzVvsZevt-h0-G51Bl3SFn'
-url_pat = 'https://discordapp.com/api/webhooks/716241164680036402/4uILix2eh8eQIIUek33KiHQHvI3ID2DJJ5H6vsUtIf1YRrgeRgIlkB0yRha3s52c_XNa'
+url_qnt = ''
+url_qnt1 = '' 
+url_var = ''
+url_var24 = ''
+url_pat = ''
 
 price_qnt = ['BTCUSDT', 'BNBUSDT', 'ETHUSDT', 'XRPUSDT' , 'XMRUSDT' , 'LTCUSDT' , 'EOSUSDT', 'TRXUSDT', 'NEOUSDT', 'IOTAUSDT', 'ZECUSDT', 'DASHUSDT', 'ENJUSDT','MCOUSDT','XLMUSDT' ,'BATUSDT','BTTUSDT', 'ONTUSDT', 'WINUSDT','ENJBTC', 'MCOBTC','BATBTC','NEOBTC', 'XRPBTC' ,'IOSTBTC','ZRXBTC', 'NANOBTC' , 'DOGEBTC', 'ETCBTC', 'XEMBTC', 'QTUMBTC' ,'KNCBTC','SNTBTC'   ]            
 price_var = ['BTCUSDT', 'BNBUSDT', 'ETHUSDT', 'XRPUSDT' , 'XMRUSDT' , 'LTCUSDT' , 'EOSUSDT', 'TRXUSDT', 'NEOUSDT', 'IOTAUSDT', 'VETUSDT', 'QTUMUSDT', 'IOSTUSDT', 'ADAUSDT', 'XTZUSDT' , 'ONTUSDT' , 'BATUSDT' ]
