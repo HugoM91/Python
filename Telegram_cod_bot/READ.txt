@@ -1,0 +1,11 @@
+criar pastas na mesma directoria que os ficheiros python
+
+
+basedados  // pode ser criada vazia
+
+eggs      // a uma parte do script que vem buscar imagens a esta pasta, pode ser desativada ou tem de se juntar as imagens
+
+lixo      // acho que nao e preciso para nada
+
+
+Correr o main.py, esta associado ao bot do cod. 
