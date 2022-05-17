@@ -56,9 +56,9 @@ lista_portos = ["Terra Prima", "San. LBV", "Javali", "Vallado 20y", "San. 40y"]
 lista_bebidas_brancas = []
 lista_material_limpeza = []
 
-sender_email = "hugodamalaquias@gmail.com"
+sender_email = ""
 password= ""
-rec_email = "hugo.malaquias@hotmail.com"
+rec_email = ""
 
 
 class telegram:
