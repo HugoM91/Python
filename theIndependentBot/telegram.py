@@ -57,7 +57,7 @@ lista_bebidas_brancas = []
 lista_material_limpeza = []
 
 sender_email = "hugodamalaquias@gmail.com"
-password= "msgusquunlhojjqz"
+password= ""
 rec_email = "hugo.malaquias@hotmail.com"
 
 
